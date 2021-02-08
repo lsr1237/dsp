@@ -1,0 +1,70 @@
+/* 全局CSS定义 */
+html{ overflow-x:hidden;}
+.body_on{ background:url(/images/admin_img/left_bg.png) repeat-y  -40px top #E2E9EA !important; }
+body{margin:0 auto;padding:0;color:#444;font: 12px/1.5 tahoma,arial,宋体,sans-serif; }
+body > div{margin-right:auto;margin-left:auto;/*text-align:center; */} 
+div,form,ul,ol,li,span,p,dl,dt,dd,img{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input,textarea{font-size:12px}
+/* 链接颜色 */
+a{color:#333;text-decoration:none;outline-style: none; outline-width: medium;}
+a:hover{text-decoration:none;}
+.white ,.white a{ color:#fff}
+/* 标题 */
+h2{/*text-align:right;*/}
+h2 span{float:left;font-weight: bold;}
+.clear,.area,.pp,.pt{zoom:1}
+.pp,.pt,.list12 ul,.list14 ul,.area{width:100%;margin:0 auto;}
+.pp:after,.pt:after,.area:after,.clear:after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+/* 浮动属性 */
+.left{float:left;}
+.right{float:right;}
+/*其他属性*/
+.cut_line span{ padding:0 4px;}
+.hide{ display:none;}
+.line-x{ border-bottom:1px solid #eee;}
+.red{ color:#f00; margin:5px; font-family:SimSun; font-weight:bold;}
+/*其他属性*/
+.show{display:block;}
+.hidden{display:none;}
+.h{ position:relative;}
+.r{ background:#e72e32 url(/images/div_bg.jpg) repeat-x; height:auto !important; min-height:165px; height:165px;}
+.t{ background:url(/images/t.jpg) no-repeat; height:43px;}
+.tc{ text-align:center;}
+
+/*边距
+******************************/
+.m0 { margin: 0!important; }
+.m10 { margin:10px;}
+.m15 { margin:15px !important;}
+.m30 { margin:30px;}
+.mt5 { margin-top:5px;}
+.mt10 { margin-top:10px !important;}
+.mt15 { margin-top:15px;}
+.mt20 { margin-top:20px !important;}
+.mt30 { margin-top:30px !important;}
+.mt50 { margin-top:50px !important;}
+.mt100 { margin-top:100px;}
+.mb5 { margin-bottom:5px !important;}
+.mb10 { margin-bottom:10px !important;}
+.mb15 { margin-bottom:15px;}
+.mb20 { margin-bottom:20px;}
+.mb30 { margin-bottom:30px !important;}
+.mb50 { margin-bottom:50px;}
+.mb100 { margin-bottom:100px;}
+.ml5 { margin-left:5px!important;}
+.ml10 { margin-left:10px!important;}
+.ml15 { margin-left:15px;}
+.ml20 { margin-left:20px;}
+.ml30 { margin-left:30px;}
+.ml50 { margin-left:50px;}
+.ml100 { margin-left:100px !important;}
+.ml200 { margin-left:200px !important;}
+.mr5 { margin-right:5px !important;}
+.mr10 { margin-right:10px !important;}
+.mr15 { margin-right:15px !important;}
+.mr20 { margin-right:20px;}
+.mr30 { margin-right:30px !important;}
+.mr50 { margin-right:50px !important;}
+.mr100 { margin-right:100px;}
